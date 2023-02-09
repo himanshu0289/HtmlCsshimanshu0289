@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/ css?family=roboto: 300, 400, 500, 700, 900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto' , sans-serif;
+ }
+ body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: @03a9f4;
+}
+.box
+{
+	position: relative;
+	width: 300px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #fff;
+	box-shadow: 0 30px 60px rgba(0,0,0,.2); 
+}
+.box .percent
+{
+     position: relative;
+	 width: 150px;
+	 height: 150px;
+}
+.box .percent svg circle
+{
+	width: 150px;
+	height: 150px;
+	fill: none;
+	 stroke-width: 10;
+	 stroke: #000;
+	 transform: translate(5px,5px);
+	 
+ }
+.box .percent .number
+{
+	
+}
+
+
+
+
+
