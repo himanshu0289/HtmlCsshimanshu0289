@@ -1,0 +1,26 @@
+<html>
+<head>Page nu.  332
+<title>
+
+</title>
+</head>
+<body>
+<h3> Enter student Marks </h3>
+<input id="Marks1"> <br> <br>
+<button onclick="checkResult()"> Check  </button>
+<br>  <br>
+<h1> <span id="text"> </span> </h1>
+<script>
+funtion checkResult()
+{
+      var sMarks = document.getElementById('marks1').value;
+	  if(sMarks >= 35)
+	  {
+	    document.getElementById('text').innerHTML = 'Pass'; 
+	  } else {
+	     document.getElementById('text').innerHTML = 'Fail';
+	  }
+}
+</script>
+</body>
+</html>

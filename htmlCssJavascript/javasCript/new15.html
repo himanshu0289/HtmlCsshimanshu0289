@@ -1,0 +1,24 @@
+<html>
+<head><b> Page nu:- 341 </b>
+<title>
+
+</title>
+</head>
+<body>
+<h4>
+Enter your name:-
+<input id="empName" onchange="myFun()">
+<br> <br>
+<p> when you leave the input field, a function is triggered <br>
+which transforms the input text to upper case.
+</p>
+</h4>
+<script>
+function myFun()
+    {
+	     var x = document.getElementById("empName");
+		 x.value = x.value.toUpperCase();
+	}
+</script>
+</body>
+</html>

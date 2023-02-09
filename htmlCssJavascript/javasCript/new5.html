@@ -1,0 +1,29 @@
+<html>
+<head> Page nu. 333
+<title>
+
+</title>
+</head>
+<body>
+<h3>Students Enter the Marks  </h3>
+<input id="m"> <br> <br> 
+<button onclick="checkResult()"> Check </button>
+<br> <br>
+<h1> <span id="text">  </span> </h1>
+<script>
+function checkResult()
+{
+var marks = document.getElementById('m').value;
+if(marks >= 80){
+      document.getElementById('text').innerHTML = '1st Grade';
+	  } else if(marks >= 60){
+	      document.getElementById('text').innerHTML ='2nd Grade';
+		  } else if(marks >= 35){
+		      document.getElementById('text').innerHTML ='3rd Grade';
+			  } else {
+			       document.getElementById('text').innerHTML ='Dubkee';
+				   }
+}
+</script>
+</body>
+</html>

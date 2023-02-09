@@ -1,0 +1,32 @@
+<html>
+<head> <h3> <b> <u> Confirmation Dialog Box </u> :- </b>  </h3> 
+<p> The confirmation dialog box is mostly used for taking user's approval <br>
+for any option. It consists a dialog box with two buttons: '<b>Ok </b> and <b>Cancel.</b>'<bR> 
+If the user clicks on the <b> Ok </b> button, the window method <b> confirm() </b> will <br>
+return true, and if the user clicks on the <b> Cancel </b> button, then <b>confirm()  </b> <br>
+returns false.</p>
+<p> The confirmation dialog box can be used as follows.........................
+</p>
+<title>
+
+</title>
+</head>
+<body>
+<h2> Example of Confirm Box  </h2>
+<button onclick="myConfirmation()">  Confirm It </button>
+<br> <bR> <br> 
+<h4> <p id="try">  </p> </h4>
+<script>
+             function myConfirmation()
+			 {
+			     var txt;
+				 if(confirm("Do you want t continue??"))
+				        txt="User wants to continue!!";
+				else
+				      txt="User do not want to continue!!";
+					  
+				document.getElementById("try").innerHTML= txt;
+			 }
+</script>
+</body>
+</html>

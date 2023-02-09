@@ -1,0 +1,44 @@
+<html>
+<head> <b> <u>Page nu. 339 </u> </b> <h3> <u> Prompt dilog Box:-  </u> </h3>
+<p> It is useful dialog box for yout to pop-up a text bos to get user input<br>
+ and also enables to interact with user. The user needs to fill in the field and then click<b> Ok.</b><bR> 
+ This dialog bos is displayed using a method called <b> prompt() </b><br>
+ which takes two paremeters.
+<br> <br> <br> 
+ <b> The parameters are as follows:-</b >  <br>
+<ol type="a">
+<li>A label which you want to display in the text box and--
+</li> <bR> 
+<li> A default string to display in the text box.
+</li>
+</ol>
+This dialog box has two buttons,<b> OK</B> and <b> Cancel.</b><bR>
+If the user clicks the <b> OK button,</b> the window method <b> prompt() </b> <br>
+will <b> return </b> the <b> entered value </b> from the text box. If the <bR>
+user clicks the <b> Cancel button,</b> The <b> window method prompt() returns null.</b>   
+</p>
+<title>
+
+</title>
+</head>
+<body>
+<h2>Example of  Prompt Dialog Box..................   </h2>
+<button onclick="myP()"> Try it </button>
+<p id="demo">  </p>
+<script>
+     function myP()
+	 {
+	     var eName;
+		 var person = Prompt("Your Sweetest Name Please??:","Balaji");
+		 if(person == null || person == "")
+		    eName ="User cancelled the prompt.";
+	     else 
+		    eName ="Hello" + person + "! How are you /buddy?";
+			
+		document.getElementById("demo").innerHTML = eName;
+	 }
+	 </script>
+
+
+</body>
+</html>

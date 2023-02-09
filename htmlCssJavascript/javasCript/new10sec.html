@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>
+
+</title>
+</head>
+<body>
+<h2>Example of  Prompt Dialog Box..................   </h2>
+<button onclick="myP()"> Try it </button>
+<p id="demo">  </p>
+<script>
+     function myP()
+	 {
+	     var eName;
+		 var person = Prompt("Your Sweetest Name Please??:","Balaji");
+		 if (person ==  null ||  person == "")
+		    eName = "User cancelled the prompt.";
+	     else 
+		    eName = "Hello" +  person + "! How are you Buddy?";
+			
+		document.getElementById("demo").innerHTML = eName;
+	 }
+	 </script>
+</body>
+</html>

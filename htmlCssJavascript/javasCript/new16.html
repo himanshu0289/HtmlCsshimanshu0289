@@ -1,0 +1,23 @@
+<html>
+<head><b> Page nu:- 341 <bR>Onmouseover and onmouseout Event </b>
+<title>    </title>
+<script>
+    function over()
+	{
+	     document.getElementById("overMe").innerHTML="Result= Mouse is On above text";
+	}
+	function out()
+	{
+	     document.getElementById("overMe").innerHTML="Result= Mouse is OUT of the above text";
+	}
+</script>
+
+</head>
+<body>
+<h4> Bring your mouse below text to see the result. </h4>
+<div onmouseover="over()" onmouseout="out()">
+<h2> Put mouse on this text for mouse over effect. </h2>
+</div>
+<span id="overMe">  </span>
+</body>
+</html>

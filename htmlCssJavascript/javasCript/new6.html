@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>
+
+</title>
+</head>
+<body>
+<p id="text"> Our Books </p>
+<script>
+     document.getElementById('text').innerHTML = '<br>' +getFruitColor('CCC');
+	 function getFruitColor(BOOKS) {
+         var msg;
+		 switch(BOOKS) {
+		     case 'CCC':
+			      msg = 'CCC is the best book of our Publication.';
+				  break;
+			case 'HINDI'	: 
+			      msg = 'HINDI is our upcomming book.';
+				  break;
+			case 'BEO':
+			      msg = 'BEO is the latest book of our publication.';
+				  break;
+		     default:
+			      msg = 'Books is not available';
+			 }
+			 return msg;
+	 }
+</script>
+<br> <br> <br> <br> <br> <br> <bR> <br> <bR> <br> 
+<b> output of the above code is: </b> CCC is the book of Our Publication.
+<br> 
+<b> Note:-</b> Change the value and try again.................
+</body>
+</html>
