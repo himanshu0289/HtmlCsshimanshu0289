@@ -1,0 +1,54 @@
+  *
+  {
+	  margin: opx;
+	  padding: 0px;
+  }
+  body{
+	  background-image: url("r.jpg");
+	  
+	  
+  }
+  
+  
+  #menu ul
+ {
+	list-style: none;
+}
+#menu ul li
+{
+	background-color: red;
+	border: 5px ;
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border-radius: 15px;
+}
+#menu ul li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#menu ul li a:hover
+{
+	background-color: green;
+	border-radius: 15px;
+	}
+#menu ul ul
+{
+	position: absolute;
+	display: none; 
+}
+#menu ul li:hover > ul
+{
+ display: block;
+}
+#menu ul ul ul 
+{
+	margin-left: 120px;
+	top:0px;
+	
+}
